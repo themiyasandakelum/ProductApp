@@ -6,5 +6,6 @@ namespace ProductAdd.Repositary
     {
         Product SaveProductDetails(Product product);
         List<Product> GetAllProductDetails();
+        Product UpdateProductDetails (Product product,int productId);
     }
 }

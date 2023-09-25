@@ -13,5 +13,6 @@ namespace ProductAdd.Models
         public double RetailPrice { get; set; }
         public double SalePrice { get; set; }
         public double LowestPrice { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }

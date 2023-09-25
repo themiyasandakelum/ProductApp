@@ -3969,11 +3969,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Themiya\\Documents\\.netcourse\\ProductApp\\ProductApp\\ProductApp.csproj",
+      "projectUniqueName": "C:\\Users\\Themiya\\Documents\\.netcourse\\ProductApp\\ProductApp\\ProductApp\\ProductApp.csproj",
       "projectName": "ProductApp",
-      "projectPath": "C:\\Users\\Themiya\\Documents\\.netcourse\\ProductApp\\ProductApp\\ProductApp.csproj",
+      "projectPath": "C:\\Users\\Themiya\\Documents\\.netcourse\\ProductApp\\ProductApp\\ProductApp\\ProductApp.csproj",
       "packagesPath": "C:\\Users\\Themiya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Themiya\\Documents\\.netcourse\\ProductApp\\ProductApp\\obj\\",
+      "outputPath": "C:\\Users\\Themiya\\Documents\\.netcourse\\ProductApp\\ProductApp\\ProductApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Themiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3996,6 +3996,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -4040,6 +4043,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.9, 7.0.9]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.9, 7.0.9]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.9, 7.0.9]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.9, 7.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4048,7 +4069,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
       }
     }
   }

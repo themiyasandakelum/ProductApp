@@ -29,5 +29,11 @@ namespace ProductAddApp.Controllers
             var list= _idata.GetAllProductDetails();
             return list;
         }
+        [HttpPut("{id}")]
+        public Product Update(Product product,int id)
+        {
+            _idata.UpdateProductDetails(product, id);
+            return product;
+        }
     }
 }
